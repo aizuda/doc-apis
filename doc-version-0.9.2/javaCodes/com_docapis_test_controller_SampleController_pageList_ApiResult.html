@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ApiResult</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.css">
+<link href="../style.css" rel="stylesheet" />
+</head>
+<body onload="PR.prettyPrint()">
+<pre class="prettyprint lang-java">
+public class ApiResult implements Serializable{
+
+    private PageInfo data; //数据
+    private int code; //状态码
+    private String msg; //消息
+
+    public PageInfo getData(){
+        return data;
+    }
+
+    public void setData(PageInfo data){
+        this.data = data;
+    }
+
+    public int getCode(){
+        return code;
+    }
+
+    public void setCode(int code){
+        this.code = code;
+    }
+
+    public String getMsg(){
+        return msg;
+    }
+
+    public void setMsg(String msg){
+        this.msg = msg;
+    }
+
+}
+</pre>
+
+
+<pre class="prettyprint lang-java">
+public class PageInfo implements Serializable{
+
+    private int pageNum; //当前页
+    private int pageSize; //每页的数量
+    private int size; //当前页的数量
+    private long startRow; //当前页面第一个元素在数据库中的行号
+    private long endRow; //当前页面最后一个元素在数据库中的行号
+    private int pages; //总页数
+    private int prePage; //前一页
+    private int nextPage; //下一页
+    private boolean isFirstPage; //是否为第一页
+    private boolean isLastPage; //是否为最后一页
+    private boolean hasPreviousPage; //是否有前一页
+    private boolean hasNextPage; //是否有下一页
+    private int navigatePages; //导航页码数
+    private int[] navigatepageNums; //所有导航页号
+    private int navigateFirstPage; //导航条上的第一页
+    private int navigateLastPage; //导航条上的最后一页
+    private long total; //总记录数
+    private Document[] list; //结果集
+
+    public int getPageNum(){
+        return pageNum;
+    }
+
+    public void setPageNum(int pageNum){
+        this.pageNum = pageNum;
+    }
+
+    public int getPageSize(){
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize){
+        this.pageSize = pageSize;
+    }
+
+    public int getSize(){
+        return size;
+    }
+
+    public void setSize(int size){
+        this.size = size;
+    }
+
+    public long getStartRow(){
+        return startRow;
+    }
+
+    public void setStartRow(long startRow){
+        this.startRow = startRow;
+    }
+
+    public long getEndRow(){
+        return endRow;
+    }
+
+    public void setEndRow(long endRow){
+        this.endRow = endRow;
+    }
+
+    public int getPages(){
+        return pages;
+    }
+
+    public void setPages(int pages){
+        this.pages = pages;
+    }
+
+    public int getPrePage(){
+        return prePage;
+    }
+
+    public void setPrePage(int prePage){
+        this.prePage = prePage;
+    }
+
+    public int getNextPage(){
+        return nextPage;
+    }
+
+    public void setNextPage(int nextPage){
+        this.nextPage = nextPage;
+    }
+
+    public boolean getIsFirstPage(){
+        return isFirstPage;
+    }
+
+    public void setIsFirstPage(boolean isFirstPage){
+        this.isFirstPage = isFirstPage;
+    }
+
+    public boolean getIsLastPage(){
+        return isLastPage;
+    }
+
+    public void setIsLastPage(boolean isLastPage){
+        this.isLastPage = isLastPage;
+    }
+
+    public boolean getHasPreviousPage(){
+        return hasPreviousPage;
+    }
+
+    public void setHasPreviousPage(boolean hasPreviousPage){
+        this.hasPreviousPage = hasPreviousPage;
+    }
+
+    public boolean getHasNextPage(){
+        return hasNextPage;
+    }
+
+    public void setHasNextPage(boolean hasNextPage){
+        this.hasNextPage = hasNextPage;
+    }
+
+    public int getNavigatePages(){
+        return navigatePages;
+    }
+
+    public void setNavigatePages(int navigatePages){
+        this.navigatePages = navigatePages;
+    }
+
+    public int[] getNavigatepageNums(){
+        return navigatepageNums;
+    }
+
+    public void setNavigatepageNums(int[] navigatepageNums){
+        this.navigatepageNums = navigatepageNums;
+    }
+
+    public int getNavigateFirstPage(){
+        return navigateFirstPage;
+    }
+
+    public void setNavigateFirstPage(int navigateFirstPage){
+        this.navigateFirstPage = navigateFirstPage;
+    }
+
+    public int getNavigateLastPage(){
+        return navigateLastPage;
+    }
+
+    public void setNavigateLastPage(int navigateLastPage){
+        this.navigateLastPage = navigateLastPage;
+    }
+
+    public long getTotal(){
+        return total;
+    }
+
+    public void setTotal(long total){
+        this.total = total;
+    }
+
+    public Document[] getList(){
+        return list;
+    }
+
+    public void setList(Document[] list){
+        this.list = list;
+    }
+
+}
+</pre>
+
+
+<pre class="prettyprint lang-java">
+public class Document implements Serializable{
+
+    private long id; //主键
+    private String title; //文档标题
+    private String content; //文档内容
+
+    public long getId(){
+        return id;
+    }
+
+    public void setId(long id){
+        this.id = id;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public void setTitle(String title){
+        this.title = title;
+    }
+
+    public String getContent(){
+        return content;
+    }
+
+    public void setContent(String content){
+        this.content = content;
+    }
+
+}
+</pre>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+</body>
+</html>
