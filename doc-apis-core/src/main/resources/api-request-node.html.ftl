@@ -91,8 +91,8 @@
             <!-- application/json -->
             <div class="debug-params">
                 <em></em>
-                <span>Key</span>
-                <span>Value</span>
+                <span>KEY</span>
+                <span>VALUE</span>
             </div>
             <div class="params-form"></div>
             <div class="execute">Execute</div>
