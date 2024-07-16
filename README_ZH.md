@@ -45,9 +45,9 @@
 
 ## 链接 | Links
 ---
-- [中文版](https://github.com/xpc1024/doc-apis/blob/main/README_ZH.md)
-- [Samples](https://gitee.com/easy-es/doc-apis/tree/master/doc-apis-test)
-- [Demo in Springboot](https://gitee.com/easy-es/doc-apis-springboot-demo)
+- [English](https://github.com/xpc1024/doc-apis/blob/main/README.md)
+- [Samples](https://github.com/xpc1024/doc-apis/tree/main/doc-apis-test)
+- [Demo in Springboot]([https://gitee.com/easy-es/doc-apis-springboot-demo](https://github.com/xpc1024/doc-apis-springboot-demo-en))
 - [Doc-Apis-PPT下载](https://iknow.hs.net/21df32cf-35fb-44f0-945f-06330408c1bd.pptx)
 
 
