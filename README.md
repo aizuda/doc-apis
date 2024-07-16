@@ -70,7 +70,7 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 -   ...
 
 
-## Sample
+## Preview
 ![image](https://github.com/user-attachments/assets/12f9b637-4377-4b6e-ac15-b87562d539a0)
 ![image](https://github.com/user-attachments/assets/abe8c48e-5ff3-4645-bd06-87538abc87c1)
 ![image](https://github.com/user-attachments/assets/b8931051-d59b-4caa-8b6d-6effca7bcff7)
