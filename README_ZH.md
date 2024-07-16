@@ -93,7 +93,7 @@ doc-apis是一款真正意义上的零侵入接口文档生成工具,也是目�
 compile group: 'com.doc-apis', name: 'doc-apis-starter', version: 'Latest Version'
 ```
 
-## 效果 | Sample
+## 效果 | Preview
 
 ![1](https://iknow.hs.net/137a4503-58e8-4c0c-a26e-a74cb7698707.png)
 <br/>
