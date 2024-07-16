@@ -21,12 +21,10 @@
 </p>
 
 ## What is Doc-Apis?
----
 
 A foolproof, non-intrusive, code-free framework for automatic generation of API documentation with one-click debugging.
 
 ## Official website
----
 
 **doc-apis website**  https://en.doc-apis.com/
 
@@ -50,13 +48,11 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 
 ## Links
----
 - [中文版](https://github.com/xpc1024/doc-apis/blob/main/README_ZH.md)
 - [Samples](https://github.com/xpc1024/doc-apis/tree/main/doc-apis-test)
 - [Demo in Springboot](https://en.easy-es.cn/pages/658abb/#_2-pom)
 
 ## Features
----
 
 - **Zero Intrusion:** Unlike frameworks like Swagger, which require additional business code to generate documentation, doc-apis generates API documentation automatically as long as your code complies with standards.
 - **Zero Configuration:** For Springboot projects, it takes as few as 0 lines of configuration to automatically generate API documentation. All configurations are designed for ease of use and come with default values, allowing you to configure as needed.
@@ -76,7 +72,6 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 
 ## Advertising provider
----
 
 <a href="https://www.mingdao.com?s=utm_206&utm_source=doc-apis&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=%E6%B3%A8%E5%86%8C%E4%BD%93%E9%AA%8C
 ">
@@ -86,11 +81,9 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 </br>
 
 ## Donate
----
 [Donate doc-apis](https://en.doc-apis.com/pages/fb599d/)
 
 
 ## License
----
 
 Doc-apis is under the Apache 2.0 license and AGPL-3.0 license.
