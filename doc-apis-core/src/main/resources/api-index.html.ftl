@@ -22,7 +22,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://www.doc-apis.com" target="_blank">Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">${currentApiVersion}<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">${currentApiVersion}<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <#list apiVersionList as version>
                             <#if version != currentApiVersion>
@@ -51,8 +52,10 @@
                 <div class="page-inner">
                     <div class="main-content">
                         <div class="ad-img">
-                            <img src="https://iknow.hs.net/cedee01f-024f-46c8-ba30-3e88de690b55.png">
-                            <span class="ad-text">本广告位招募赞助商  Mail:xpc@dromara.org</span>
+                            <a href="${i18n.getMessage('advLink')}">
+                                <img src="https://www.doc-apis.com/img/topSponsor/adv.jpg">
+                            </a>
+                            <span class="ad-text">${i18n.getMessage('adv')}</span>
                         </div>
                     </div>
 
@@ -99,8 +102,8 @@
         {
             source: function (query, callback) {
                 var result = [];
-                for(var i = 0; i !== search_source_data.length; i++){
-                    if(search_source_data[i].name.indexOf(query) !== -1){
+                for (var i = 0; i !== search_source_data.length; i++) {
+                    if (search_source_data[i].name.indexOf(query) !== -1) {
                         var item = search_source_data[i];
                         result.push(item);
                     }
@@ -134,7 +137,7 @@
 
             // 记录点击时间并设置过期时间为7天
             const expiry = now + 7 * 24 * 60 * 60 * 1000; // 7天后
-            localStorage.setItem('openDocApi', JSON.stringify({ expiry: expiry }));
+            localStorage.setItem('openDocApi', JSON.stringify({expiry: expiry}));
         });
     });
 </script>
