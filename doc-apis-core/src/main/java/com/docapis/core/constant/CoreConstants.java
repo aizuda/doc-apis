@@ -12,7 +12,7 @@ public interface CoreConstants {
     /**
      * 版本号发版及包调整时须更新此字段,死贫道不能死道友,此举可使用户可免配
      */
-    String VERSION = "0.9.2";
+    String VERSION = "1.0.0";
     /**
      * jar 完整路径
      */
