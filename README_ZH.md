@@ -25,9 +25,9 @@
 
 **doc-apis 官网**  https://doc-apis.com/
 
-**dic-apis gitee** https://gitee.com/easy-es/doc-apis
+**dic-apis gitee** https://gitee.com/aizuda/doc-apis
 
-**dic-apis github** https://github.com/xpc1024/doc-apis
+**dic-apis github** https://github.com/aizuda/doc-apis
 
 **aizuda 官网** https://aizuda.com/home
 
