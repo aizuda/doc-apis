@@ -28,23 +28,17 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 **doc-apis website**  https://en.doc-apis.com/
 
-**dic-apis github** https://github.com/xpc1024/doc-apis
+**dic-apis github** https://github.com/aizuda/doc-apis
 
-
-**dic-apis gitee** https://gitee.com/easy-es/doc-apis
-
+**dic-apis gitee** https://gitee.com/aizuda/doc-apis
 
 **aizuda website** https://aizuda.com/home
 
-
 **aizuda gitee homepage** https://gitee.com/aizuda
-
 
 **dromara website** https://dromara.org/
 
-
 **dromara gitee homepage** https://gitee.com/dromara/
-
 
 
 ## Links
