@@ -62,7 +62,7 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 - **Ease of Use:** Like high-quality ingredients requiring simple cooking, a sophisticated documentation generation framework requires simple operations. From beginner to expert, you can master it in 0 to 5 minutes.
 - **Continuous Updates:** ...
 -   ...
-
+-   ...
 
 ## Preview
 ![image](https://github.com/user-attachments/assets/12f9b637-4377-4b6e-ac15-b87562d539a0)
@@ -86,4 +86,4 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 ## License
 
-Doc-apis is under the Apache 2.0 license and AGPL-3.0 license...
+Doc-apis is under the Apache 2.0 license and AGPL-3.0 license..
