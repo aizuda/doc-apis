@@ -86,4 +86,4 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 ## License
 
-Doc-apis is under the Apache 2.0 license and AGPL-3.0 license..
+Doc-apis is under the Apache 2.0 license and AGPL-3.0 license...
