@@ -79,6 +79,12 @@ A foolproof, non-intrusive, code-free framework for automatic generation of API 
 
 </br>
 
+<a href="https://fastbee.cn/">
+  <img alt="ad" src="https://iknow.hs.net/b0592c71-5a41-427e-8d47-fcba4b399d02.png">
+</a>
+
+<br/>
+
 ## Donate
 [Donate doc-apis](https://en.doc-apis.com/pages/fb599d/)
 
