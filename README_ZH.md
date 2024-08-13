@@ -150,3 +150,9 @@ QQ | 微信:252645816
 </a>
 
 <br/>
+
+<a href="https://fastbee.cn/">
+  <img alt="ad" src="https://iknow.hs.net/b0592c71-5a41-427e-8d47-fcba4b399d02.png">
+</a>
+
+<br/>
